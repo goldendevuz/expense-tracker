@@ -3,7 +3,7 @@ from typing import Any, Dict, Union
 
 
 class JsonHandler:
-    def __init__(self, file_path: str = "tasks.json") -> None:
+    def __init__(self, file_path: str = "expenses.json") -> None:
         self.file_path: str = file_path
 
     def read(self) -> Dict[str, Any]:

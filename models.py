@@ -1,9 +1,8 @@
 from pydantic import BaseModel
 
 
-class Task(BaseModel):
+class Expense(BaseModel):
     id: int
+    date: str
     description: str
-    status: str
-    createdAt: str
-    updatedAt: str | None = None
+    amount: int
