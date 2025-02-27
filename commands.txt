@@ -1,0 +1,4 @@
+python3 -m venv env
+. env/bin/activate
+make i
+alias expense-tracker="python main.py"
