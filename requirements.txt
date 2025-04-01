@@ -1,0 +1,6 @@
+icecream
+pydantic
+ruff
+pydantic
+colorama
+prettytable
